@@ -3,43 +3,118 @@
   <head>
     <meta charset="UTF-8">
     <title>Meu Portfólio</title>
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+      body{ 
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #7A93AC;
+        font-size: 16px;
+        color: #171A21;
+      }
+
+      h1{
+        text-align: center;
+        background-color: #171A21;
+        padding: 2em;
+        color: #92BCEA;
+        border-radius: 10px;
+      }
+     
+      h3{
+        text-align: center;
+        font-size: 2em;
+        color: #171A21
+      }
+
+      h2{
+        text-align: center;
+        font-size: 2em;
+        color: #171A21
+      }
+
+      a:link {
+      text-decoration: none;
+      }
+
+      a:visited {
+      color: black;
+      }
+
+      a:hover{
+        color: #AFB3F7;
+        font-size: 1.1em;
+      }
+
+      #art{
+        border-radius: 50%;
+        width: 300px;    
+        margin-left: 560px;
+        display: flexbox;        
+      }
+
+      #art:hover{
+        opacity: 50%;
+      }
+    
+      p{
+        text-align: center;
+        font-size: 1.5em;
+      }
+
+      li{
+        font-size: 2em;
+        color: #171A21
+      }
+
+      .form{
+        font-size: 1em;
+        color: #435466;        
+        margin-left: 500px;
+      }
+
+    </style>
+    </head>
 
   <body>
       <h1>Portfólio WEB</h1>
+      
 
-      <h3>Índice</h3>
-      <lo>
+      <h3 class="ind">Índice</h3>
+      <ul>
         <li><a href="#art">Artur Vidor</a></li>
         <li><a href="#des">Descrição</a></li>
         <li><a href="#hab">Habilidades</a></li>
+      </ul>
+      
 
       <h2><a href="#art">Artur Dal Berto Vidor</a></h2>
 
-      <img src="/imagens/arturVidor.jpeg" alt="Foto de Artur Vidor" width="500px" id="art">
+      <a href="https://www.linkedin.com/in/artur-dal-berto-vidor-9733a2167/" target="_blank"><img src="/imagens/arturvidor.png" alt="Foto de Artur Vidor" id="art"></a>
 
-      <h3 id="des">Descrição</h3>
+      <h3 id="des">Quem Sou</h3>
 
       <p>
         <br>
-        <em>Tecnólogo de gestão em turismo</em> na <strong>Faculdade Municipal de Palhoça</strong> e estudante de <em>Desenvolvimento Web</em> na <strong>Trybe</strong>.
+        <em>Tecnólogo de Gestão em Turismo</em> na <strong><a href="http://fmpsc.edu.br/" target="_blank">Faculdade Municipal de Palhoça</a></strong> e estudante de <em>Desenvolvimento Web</em> na <strong><a href="https://www.betrybe.com/" target="_blank">Trybe</a></strong>.
         <br>Natural de Santa Maria - Rs, morando atualmente em Palhoça - SC.<br>
         Nascido em 09/09/1997.<br>
-        Ouvinte ávido  do <a href="https://jovemnerd.com.br/nerdcast/" target="_blank">NerdCast</a> e Podcasts em geral.
+        Ouvinte ávido  do <strong><a href="https://jovemnerd.com.br/nerdcast/" target="_blank">NerdCast</a></strong> e Podcasts em geral.
       </p>
 
       <h3 id="hab">Habilidades</h3>
 
-      <ul>
+      <ol class="form">
         <li><strong>Aprendizagem Rápida</strong></li>
         <li>Proatividade</li>
-        <li>Equilibrio Emocional</li>
-        <li>Resiliencia</li>
+        <li>Equilíbrio Emocional</li>
+        <li>Resiliência</li>
         <li>Facilicade em Comunicação</li> 
         <li><em>Empatia</em></li>      
-      </ul>
+      </ol>
       
 
-      </lo>
+
     
   </body>
