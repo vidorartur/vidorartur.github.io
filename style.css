@@ -1,66 +1,94 @@
-body{ 
+body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #7A93AC;
     font-size: 16px;
     color: #171A21;
-  }
+}
 
-  h1{
+h1 {
     text-align: center;
     background-color: #171A21;
     padding: 2em;
     color: #92BCEA;
     border-radius: 10px;
-  }
- 
-  h3{
+    border: solid 5px #435466;
+}
+
+h3 {
     text-align: center;
     font-size: 2em;
     color: #171A21
-  }
+}
 
-  h2{
+h2 {
     text-align: center;
     font-size: 2em;
-    color: #171A21
-  }
+    color: #171A21;
+    padding: 1em;
+}
 
-  a:link {
-  text-decoration: none;
-  }
+a {
+    color: #171A21;
+}
 
-  a:visited {
-  color: black;
-  }
+a:link {
+    text-decoration: none;
+}
 
-  a:hover{
+a:visited {
+    color: #171A21;
+}
+
+a:hover {
     color: #AFB3F7;
-    font-size: 1.1em;
-  }
+}
 
-  #art{
-    border-radius: 50%;
-    width: 300px;    
-    margin-left: 560px;
-    display: flexbox;        
-  }
+#art {
+    border-radius: 30% 50%;
+    width: 200px;
+    margin-left: 300px;
+    border: #171A21 solid 5px;
+    padding: 2px;
+    float: left;
+}
 
-  #art:hover{
+.fotoartur {
+    height: 300px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 130px;
+}
+
+#art:hover {
     opacity: 50%;
-  }
+}
 
-  p{
-    text-align: center;
-    font-size: 1.5em;
-  }
-
-  li{
+li {
     font-size: 2em;
-    color: #171A21
-  }
+    color: #171A21;
+}
 
-  .form{
+ol li {
+    font-size: 2em;
+    color: #171A21;
+    padding: 0.5em;
+}
+
+.form {
     font-size: 1em;
-    color: #435466;        
-    margin-left: 500px;
-  }
+    color: #435466;
+    display: inline-block;
+    margin-left: 35%;
+}
+
+#description {
+    font-size: 1.5em;
+    margin-left: 60%;
+    margin-top: auto;
+    text-align: justify;
+    padding-right: 200px;
+}
+
+#hab {
+    padding: 3em;
+}
