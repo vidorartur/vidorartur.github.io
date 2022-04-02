@@ -1,6 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #7A93AC;
+    background-color: #92BCEA;
     font-size: 16px;
     color: #171A21;
 }
@@ -10,8 +15,10 @@ h1 {
     background-color: #171A21;
     padding: 2em;
     color: #92BCEA;
-    border-radius: 10px;
     border: solid 5px #435466;
+    width: 90%;
+    margin: 0;
+    border-style: double;
 }
 
 h3 {
@@ -31,6 +38,10 @@ a {
     color: #171A21;
 }
 
+#footer a {
+    color: #92BCEA;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -43,20 +54,25 @@ a:hover {
     color: #AFB3F7;
 }
 
+h2 a:hover {
+    color: #435466;
+}
+
 #art {
-    border-radius: 30% 50%;
-    width: 200px;
-    margin-left: 300px;
+    border-radius: 50%;
+    width: 250px;
+    margin-left: 90px;
     border: #171A21 solid 5px;
     padding: 2px;
     float: left;
 }
 
-.fotoartur {
-    height: 300px;
+.fotoArtur {
+    height: 280px;
     display: inline-block;
     position: absolute;
-    margin-top: 130px;
+    margin-top: 40px;
+    width: 400px;
 }
 
 #art:hover {
@@ -69,26 +85,74 @@ li {
 }
 
 ol li {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #171A21;
     padding: 0.5em;
+    margin-left: 37%;
 }
 
 .form {
     font-size: 1em;
     color: #435466;
-    display: inline-block;
-    margin-left: 35%;
+    background-color: #AFB3F7;
+    width: 940px;
+    margin: 0 auto;
+    border: solid 5px #171A21;
+    list-style-position: inside;
+    padding: 2em;
+    border-style: double;
 }
 
 #description {
     font-size: 1.5em;
-    margin-left: 60%;
+    margin-left: 57%;
     margin-top: auto;
     text-align: justify;
-    padding-right: 200px;
+    padding-right: 20px;
 }
 
 #hab {
-    padding: 3em;
+    padding: 2em;
+}
+
+#artur {
+    border: solid 5px #171A21;
+    border-style: double;
+    background-color: #435466;
+    width: 940px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.ind {
+    background-color: #435466;
+    width: 940px;
+    margin: 0 auto;
+    border: solid 5px #171A21;
+    list-style-position: inside;
+    padding: 2em;
+    border-style: double;
+}
+
+#meuNome {
+    background-color: #AFB3F7;
+    width: 940px;
+    margin: 0 auto;
+    border: solid 5px #171A21;
+    border-style: double;
+}
+
+.impares {
+    text-decoration: underline;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+
+#footer {
+    background-color: #171A21;
+    padding: 2em;
+    border: solid 5px #435466;
+    width: 94.8%;
+    border-style: double;
+    text-align: center;
 }
