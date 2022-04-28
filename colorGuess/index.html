@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guess</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div id="imagem">></div>
+    </nav>
+    <section>
+        <h1 id="title">Color Guess</h1>
+        <div>
+            <p>Regras do Jogo: Tente adivinhar qual das bolas coloridas correponde ao RGB abaixo.<br>Para cada acerto, você ganha 3 pontos. Lembre-se de clicar em <strong>"RESET GAME"</strong> quando acertar a cor.</p>
+        </div>
+        <br><br>
+        <div>
+            <p>Placar = <scan id="score"></scan>
+            </p>
+        </div>
+        <div>
+            <p id="rgb-color">RGB (000,000,000)</p>
+        </div>
+
+        <div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+        </div>
+        <div>
+            <p id="answer">Escolha uma cor</p>
+        </div>
+        <button id="reset-game">Reset Game</button>
+        <p id="art">&copy; ArtDev</p>
+    </section>
+    <div id="imagens">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

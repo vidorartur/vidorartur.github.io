@@ -1,0 +1,58 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+
+<header> 
+<h1> Calculadora de IMC.</h1>
+
+</header>
+
+<section>
+<div>
+    O peso será medido em Kg, e a altura em metros. Use o "." (ponto)
+    para separar os metros dos centimetros.<br> <strong>
+    Ex: 1.90 para um metro e noventa centímetros de altura</strong> 
+
+</div>
+<div>
+<p>Peso:
+
+    <input type='number' id= 'txtpeso' min='0'>
+
+</p>
+<p>Altura:
+
+    <input type='number' id= 'txtaltura' min='0'>
+
+</p>
+<p> 
+    <input type="button" value='Calcular' onclick="calculaImc()">
+</p>
+</div>
+
+<div id="resp">
+    Preencha os dados acima para ver o resultado!
+</div>
+
+<div  id= "resultado"> 
+
+</div>
+
+</section>
+
+<footer>
+    <p> &copy; ArtDev</p>
+</footer>
+
+
+<script src= "calculadoradeimc.js"></script>
+    
+</body>
+</html>
