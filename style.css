@@ -33,19 +33,19 @@ main {
     margin-top: 2em;
 }
 
-#hab{
+#hab {
     padding: 2em;
 }
 
-.habs{
+.habs {
     padding: 1em;
 }
 
-#description{
+#description {
     padding: 1.5em;
 }
 
-#footer{
+#footer {
     background-color: #212529;
     text-align: center;
     padding: 10px;
@@ -53,20 +53,20 @@ main {
 }
 
 footer p a {
-    
+
     color: white;
     margin-top: 10px;
 }
 
-footer p  {
+footer p {
     color: white;
     padding-top: 20px;
 }
 
-#empatia{
+#empatia {
     padding-bottom: 100px;
 }
 
-#des{
+#des {
     padding-top: 50px;
 }
