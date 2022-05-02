@@ -54,9 +54,13 @@ section {
 }
 
 .habs {
-    padding: 1.5em;
+    padding: 2em;
     font-family: 'Libre Bodoni', serif;
+    text-align: center;
+}
 
+.habs2{
+    font-family: 'Libre Bodoni', serif;
 }
 
 #description {
