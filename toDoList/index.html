@@ -17,21 +17,22 @@
 
 <body>
     <main>
-        <header class="container">Minha Lista de Tarefas</header>
-        <p id="funcionamento" class="container">Clique duas vezes em um item para marcá-lo como completo</p>
-        <input type="text" id="texto-tarefa" autofocus placeholder="Tarefas">
-        <ol id="lista-tarefas" class="list-group"></ol>
-        <button id="criar-tarefa" class="btn btn-outline-success">Adicionar Tarefa</button>
-        <button id="mover-cima" class="btn btn-outline-info">&uArr;</button>
-        <button id="mover-baixo" class="btn btn-outline-info">&dArr;</button>
-        <button id="salvar-tarefas" class="btn btn-outline-success">Salvar Tarefas</button>
-
-        <button id="remover-selecionado" class="btn btn-outline-danger">Remover Selecionado</button>
-        <button id="remover-finalizados" class="btn btn-outline-danger">Remover Finalizados</button>
-        <button id="apaga-tudo" class="btn btn-outline-danger">Remover Tudo</button>
+        <section>
+            <header class="container">Minha Lista de Tarefas</header>
+            <p id="funcionamento" class="container">Clique duas vezes em um item para marcá-lo como completo</p>
+            <input type="text" id="texto-tarefa" autofocus placeholder="Tarefas">
+            <ol id="lista-tarefas" class="list-group"></ol>
+        </section>
+        <section id="botao">
+            <button id="criar-tarefa" class="btn btn-outline-success">Adicionar Tarefa</button>
+            <button id="mover-cima" class="btn btn-outline-info">&uArr;</button>
+            <button id="mover-baixo" class="btn btn-outline-info">&dArr;</button>
+            <button id="salvar-tarefas" class="btn btn-outline-success">Salvar Tarefas</button>
+            <button id="remover-selecionado" class="btn btn-outline-danger">Remover Selecionado</button>
+            <button id="remover-finalizados" class="btn btn-outline-danger">Remover Finalizados</button>
+            <button id="apaga-tudo" class="btn btn-outline-danger">Remover Tudo</button>
+        </section>
     </main>
-
-
 </body>
 
 <script src="script.js"></script>

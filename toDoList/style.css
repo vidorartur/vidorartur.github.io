@@ -1,12 +1,17 @@
-* {
-  /* border: solid 1px red; */
-}
+
 
 main {
   border: solid 1px black;
   margin-top: 25px;
   border-radius: 5px;
   box-shadow: 5px 5px 50px black;
+}
+
+#botao{
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .selected {
@@ -32,8 +37,8 @@ body {
 
 #mover-baixo,
 #mover-cima {
-  padding-left: 21px;
-  padding-right: 21px;
+  padding-left: 17px;
+  padding-right: 17px;
 }
 
 header {
@@ -48,23 +53,22 @@ header {
 #apaga-tudo {
   width: 498px;
 }
-
+/* 
 #remover-finalizados {
   margin-right: 0;
 }
 
 #remover-selecionado {
   margin-left: 5px;
-}
+} */
 
 #remover-finalizados,
 #remover-selecionado {
-  width: 240px;
-  margin-bottom: 5px;
+  width: 249px;
+
 }
 
 #criar-tarefa,
 #salvar-tarefas {
-  width: 180px;
-  margin-bottom: 5px;
+  width: 200px;
 }
