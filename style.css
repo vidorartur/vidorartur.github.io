@@ -4,19 +4,18 @@
     box-sizing: border-box;
 }
 
-/* 
+
 body {
     background-color: #E9ECEF;
-    font-family: 'Libre Bodoni', serif;
-    color: black
-} */
+
+}
 
 /* _____________________________________________NAV_____________________________________________________ */
 
 .lista-ul {
     display: flex;
     flex-flow: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
     align-self: center;
     position: fixed;
@@ -26,30 +25,28 @@ body {
     color: white;
     z-index: 1000;
     margin: 0;
+    font-family: 'Libre Bodoni', serif;
+
 }
 
 .lista-ul a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .lista-ul a:hover {
-    color: black;
+    color: #FFBA08
 }
 
+
 .lista {
+    color: #ffffff;
     align-self: center;
     text-decoration: none;
     list-style: none;
 }
 
-#ham-bar {
-    width: 40px;
-}
-
-#ham-bar:hover {
-    filter: brightness(0%);
-}
 
 /* _____________________________________________________________________________________________________ */
 
@@ -66,24 +63,46 @@ body {
 
 .fotinha h1 {
     margin: 0 auto;
-    color: white;
-    background-color: #212529;
+    color: #000000;
+    background-color: #E9ECEF;
     font-family: 'VT323', monospace;
-    font-size: 3rem;
+    font-size: 5rem;
+    border-radius: 10px;
+    padding: 40px 20px;
+
+}
+
+.logo-hero {
+    width: 90px;
+    opacity: 1;
+}
+
+.logo-hero:hover {
+    filter: drop-shadow(20px 5px 1px #4daa57)
+}
+
+.fotinha h1:hover {
+    background-color: #FFBA08;
+    box-shadow: 10px 10px 50px #FFBA08;
+
 }
 
 /* _____________________________________________________________________________________________________ */
 
-section {
-    width: 80%;
+#artur {
+    width: 70%;
     margin: 0 auto;
     text-align: center;
-    background-color: #ADB5BD;
-    box-shadow: 5px 10px 20px #495057;
-    border-radius: 5px;
-    border: 1px solid #212529;
+    background-color: #F95738;
+    /* box-shadow: 5px 10px 20px #495057; */
+    /* border-radius: 5px; */
+    /* border: 1px solid #212529; */
     font-family: 'VT323', monospace;
     font-size: 30px;
+    height: 730px;
+    /* display: flex;
+    flex-flow: column;
+    justify-content: space-around; */
 }
 
 #art {
@@ -92,17 +111,8 @@ section {
     margin-top: 50px;
 }
 
-.fotos {
-    width: 70%;
-    height: 400px;
-    margin-top: 1em;
-}
-
-#hab {
-    font-family: 'VT323', monospace;
-    margin-top: 10px;
-    height: 50px;
-    font-size: 3rem;
+#des {
+    font-size: 4rem;
     color: black;
 }
 
@@ -112,52 +122,29 @@ section {
     text-align: center;
 }
 
-.habs2 {
-    font-family: 'Libre Bodoni', serif;
+.habs p {
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    height: 400px;
+    line-height: 70px;
 }
 
-#description {
-    padding: 1.5em;
-}
-
-#footer {
-    background-color: #212529;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 0;
-}
-
-footer p a {
-
-    color: white;
-    margin-top: 10px;
-}
-
-footer p {
-    color: white;
-    padding-top: 20px;
-}
-
-#empatia {
-    padding-bottom: 50px;
-}
-
-#des {
-    font-size: 3rem;
+.habs p a {
     color: black;
+    transform: none;
+    text-decoration: none;
 }
 
-#carrosel {
-    text-align: center;
-    background-color: #495057;
-    box-shadow: 5px 10px 20px #495057;
-    border-radius: 5px;
-    border: 1px solid #212529;
-    font-size: 30px;
-    width: 80%;
-    margin: 0 auto;
-    color: black;
+.habs p a:hover {
+    color: #FFBA08;
 }
+
+.fotoArtur {
+    background-color: #ADB5BD;
+    height: 250px;
+}
+
+/* _____________________________________________________________________________________________________ */
 
 article {
     font-family: 'Indie Flower', cursive;
@@ -181,17 +168,54 @@ article h3 {
     text-transform: uppercase;
 }
 
+
+/* _____________________________________________________________________________________________________ */
+.fotos {
+    width: 70%;
+    height: 400px;
+    margin-top: 20px;
+    /* border-radius: 100%; */
+    border: #FFBA08 15px solid;
+}
+
+
+
+.port {
+    background-color: #ADB5BD;
+    height: 250px;
+}
+
+
+
+#carrosel {
+    text-align: center;
+    background-color: #ADB5BD;
+    /* box-shadow: 5px 10px 20px #495057; */
+    /* border-radius: 5px; */
+    /* border: 1px solid #212529; */
+    font-size: 30px;
+    width: 70%;
+    margin: 0 auto;
+    color: black;
+    height: 730px;
+}
+
+#carouselExampleDark {
+    background-color: #4DAA57;
+    padding-bottom: 58px;
+    /* border-radius: 5px; */
+}
+
+#carrosel .container p {
+    font-size: 4rem;
+}
+
+
 #carrosel div p {
     font-family: 'VT323', monospace;
-    margin-top: 50px;
     height: 50px;
     font-size: 3rem;
     margin-bottom: 50px;
-}
-
-#botao {
-    margin-left: 1330px;
-    position: fixed;
 }
 
 hr {
@@ -203,16 +227,37 @@ hr {
     margin-bottom: 10px;
 }
 
-
-
 #img-tech {
     opacity: 100%;
     height: 400px;
+
 }
 
 #logo-proj {
     width: 60px;
     margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+#softSkills {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e63946;
+    /* box-shadow: 5px 10px 20px #495057; */
+    /* border-radius: 5px; */
+    /* border: 1px solid #212529; */
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    height: 730px;
+}
+
+.form {
+    height: 250px;
+    background-color: #ADB5BD;
 }
 
 #soft-logo {
@@ -222,8 +267,41 @@ hr {
     filter: brightness(0%);
 }
 
-/* _____________________________________________________________________________________________________ */
+#hab {
+    font-family: 'VT323', monospace;
+    margin-top: 10px;
+    font-size: 4rem;
+    color: black;
+}
 
+
+.habs2 {
+    font-family: 'Libre Bodoni', serif;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-top: 20px;
+}
+
+/* _____________________________________________________________________________________________________ */
+#footer {
+    background-color: #212529;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+footer p a {
+
+    color: white;
+    margin-top: 10px;
+}
+
+footer p {
+    color: white;
+    padding-top: 20px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .hiddenBar {
     visibility: hidden;
@@ -250,13 +328,14 @@ hr {
     list-style: none;
     padding: 20px;
 }
+
 #butn-X {
     font-size: 2rem;
     list-style: none;
     padding: 20px;
     margin-left: 450px;
     margin-top: 50px;
-    }
+}
 
 
 #hidden {
