@@ -21,8 +21,11 @@ function closeBar() {
 
 const buttonHam = document.querySelector('#ham-bar')
 const buttonX = document.querySelector('#butn-X')
+const hidden = document.querySelector('.hiddenBar')
 
 buttonX.addEventListener('click', closeBar)
 buttonHam.addEventListener('click', hiddenBar)
+hidden.addEventListener('mouseleave', closeBar)
+
 
 window.addEventListener('wheel', navfixed);
