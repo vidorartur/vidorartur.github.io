@@ -23,68 +23,68 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
 </head>
 
 
 <body>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
+    <nav class="">
+        <div>
             <div>
-                <ul>
+                <ul class="lista-ul">
                     <li class="lista"><a href="#artur" class="navbar-brand"></i>Quem Sou</a></li>
                     <li class="lista"><a href="#previa" class="navbar-brand">Portfólio</a></li>
-                    <li class="lista"><a href="#hab" class="navbar-brand">Habilidades</a></li>
+                    <li class="lista"><a href="#hab" class="navbar-brand">SoftSkills</a></li>
                     <li class="lista"><a class="navbar-brand" href="https://github.com/vidorartur" target="_blank">Web
                             Developer</a></li>
+                    <li class="lista"><a ><img src="pngegg (4).png" alt="" id="ham-bar"></a></li>
                 </ul>
             </div>
-            <button class=" navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" id="botao">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header bg-dark ">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                        <scam style="color:white">Projetos</scam>
-                    </h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body bg-dark ">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active bg-dark" aria-current="page" href="pixelArt/index.html"
-                                target="_blank">Pixel Art</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active bg-dark" href="colorGuess/index.html" target="_blank">Color
-                                Guess</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active bg-dark" href="calculadoraIMC/index.html"
-                                target="_blank">Calculadora IMC</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active bg-dark" href="toDoList/index.html" target="_blank">To Do List</a>
-                        </li>
-                    </ul>
+            <div id="hidden"> 
+                <div class="hiddenBar">
+                    <div>
+                        <a id="butn-X">X</a>
+                        <h5>Projetos </h5>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <a>Pixel Art</a>
+                            </li>
+                            <li>
+                                <a>Color Guess</a>
+                            </li>
+                            <li>
+                                <a>Calculadora IMC</a>
+                            </li>
+                            <li>To Do List</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+           
+
         </div>
     </nav>
-    <br><br><br>
+    <section class="fotinha">
+        <h1>HTML, CSS, JavaScript.</h1>
+        <!-- <img src="pngegg.png" alt="" id="img-tech"> -->
+    </section>
+    <br>
     <main>
         <section id="artur">
             <div class="fotoArtur">
-
-                <a href="#"><img src="/imagens/arturvidor.png" alt="Foto de Artur Vidor" id="art"
-                        class="img-thumbnail border border-dark rounded-circle"></a>
+                <a href="#">
+                    <img src="pngegg (3).png" alt="Foto de Artur Vidor" id="art"
+                        class="img-thumbnail border border-dark rounded-circle">
+                </a>
             </div>
-
             <h3 id="des">Quem Sou</h3>
-
+            <hr>
             <div>
                 <div class="habs">Me chamo Artur Dal Berto Vidor. Sou <em>Tecnólogo em Gestão de Turismo</em> pela
                     <strong><a href="http://fmpsc.edu.br/" target="_blank">Faculdade Municipal de Palhoça</a></strong>
@@ -93,14 +93,14 @@
                     <br> Natural de Santa Maria - RS, morando em Palhoça - SC.<br>
                 </div>
                 <div>
-                    <hr>
-                    <hr>
+                    <br>
                     <article>
                         <h3>Minha História com a Programação.</h3>
                         <p>Comecei a estudar programação no segundo semestre de 2021. Em março de 2022 ingressei na
                             Trybe.
                             A área de TI me chamou atenção após o inicio da pandemia de 2020,
-                            o fator de trabalhar de casa e a possibilidade de trabalhos internacionais foram decisivos na hora de escolher seguir esta carreira.</p>
+                            o fator de trabalhar de casa e a possibilidade de trabalhos internacionais foram decisivos
+                            na hora de escolher seguir esta carreira.</p>
                     </article>
 
                     </p>
@@ -108,10 +108,14 @@
             </div>
 
 
-        </section><br id="previa">
+        </section>
+
+        <br id="previa">
         <div id="carrosel">
             <div class="container">
-                <p>Projetos já realizados.</p>
+                <p><img src="pngegg (1).png" id="logo-proj"><br>
+                    Portfólio</p><br>
+                <hr>
             </div>
             <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -128,22 +132,22 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="imagens/color_guess.png" class="d-block w-100 fotos" alt="...">
+                        <img src="imagens/color_guess.png" class="fotos" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="imagens/pixelArt.png" class="d-block w-100 fotos" alt="...">
+                        <img src="imagens/pixelArt.png" class=" fotos" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="imagens/calculadora.png" class="d-block w-100 fotos" alt="...">
+                        <img src="imagens/calculadora.png" class="fotos" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="imagens/todolist.png" class="d-block w-100 fotos" alt="...">
+                        <img src="imagens/todolist.png" class="fotos" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                         </div>
                     </div>
@@ -166,15 +170,13 @@
                 </button>
             </div><br><br>
         </div>
+        <br>
 
         <section>
-
-
             <div class="form">
-
-                <h3 id="hab">Habilidades</h3>
+                <img src="pngegg (2).png" alt="" id="soft-logo">
+                <h3 id="hab">SoftSkills</h3>
                 <hr>
-
                 <ol class="list-group list-group-numbered">
                     <li class="habs2">Aprendizagem Rápida</li>
                     <li class="habs2">Proatividade</li>
@@ -183,19 +185,16 @@
                     <li class="habs2">Facilicade em Comunicação</li>
                     <li class="habs2" id="empatia">Empatia</li>
                 </ol>
-
             </div>
         </section>
         <br>
     </main>
-
-
-
     <footer id="footer">
-        <p id="copy"><a href="#" target="_blank"> &copy; vidorartur </a></p>
+        <p id="copy"><a href="#" target="_blank"> &copy; ArtDev </a></p>
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <script src="script.js"></script>   
 </body>
