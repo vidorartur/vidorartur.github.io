@@ -52,6 +52,53 @@ main {
     text-decoration: none;
     list-style: none;
 }
+body {
+    background-color: #E9ECEF;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+}
+
+/* _____________________________________________NAV_____________________________________________________ */
+
+.nav-list {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-content: center;
+    align-self: center;
+    position: fixed;
+    width: 100%;
+    background-color: #212529;
+    height: 70px;
+    color: white;
+    z-index: 1000;
+    margin: 0;
+    font-family: 'Libre Bodoni', serif;
+
+}
+
+.nav-list a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.nav-list a:hover {
+    color: #FFBA08
+}
+
+
+.nav-link {
+    color: #ffffff;
+    align-self: center;
+    text-decoration: none;
+    list-style: none;
+}
 
 
 /* _____________________________________________HERO____________________________________________________ */
