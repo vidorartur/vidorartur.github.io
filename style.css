@@ -9,6 +9,13 @@ body {
     background-color: #E9ECEF;
 }
 
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+}
+
 /* _____________________________________________NAV_____________________________________________________ */
 
 .nav-list {
@@ -126,7 +133,7 @@ body {
     padding-top: 20px;
     width: 80%;
     height: 400px;
-    line-height: 80px;
+    line-height: 40px;
     font-size: 26px;
 }
 
@@ -248,7 +255,7 @@ hr {
 .carousel-aside-left p,
 .carousel-aside-right p {
     font-size: 26px;
-    color:#4DAA57;
+    color: #4DAA57;
     padding-left: 25px;
     padding-right: 25px;
     font-family: 'VT323', monospace;
@@ -340,16 +347,11 @@ footer p {
     justify-content: flex-end;
 }
 
-main {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
 
-}
 
 /* ++++++++++++++++++++++++++++++++++++MOBILE++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
     main {
         display: flex;
         flex-flow: column;
@@ -367,7 +369,69 @@ main {
         width: 100%;
     }
 
+    .carousel-low-container {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .carousel-aside-left,
+    .carousel-aside-right {
+        width: 100%;
+        background-color: #000000;
+    }
+
     .hero {
-        max-height: 800px;
+        background-image: none;
+        height: 300px;
+        background-color: #000000;
+    }
+
+    .hero h1 {
+        margin: 0 auto;
+        color: #000000;
+        background-color: #E9ECEF;
+        font-family: 'VT323', monospace;
+        font-size: 2rem;
+        border-radius: 10px;
+        padding: 20px 10px;
+
+    }
+
+    .logo-hero {
+        width: 40px;
+        opacity: 1;
+    }
+
+    .nav-list a {
+        font-size: 1rem;
+    }
+
+    .nav-list {
+        justify-content: space-evenly;
+    }
+
+    .whoAmI-low-container p {
+        font-size: 1.5rem;
+    }
+
+    .hiddenBar {
+        width: 70%;
+    }
+
+
+    .hiddenBar li {
+        font-size: 1rem;
+        list-style: none;
+        padding-top: 5px;
+    }
+    
+    .hiddenBar h5 {
+        font-size: 1rem;
+        list-style: none;
+        padding: 20px;
+        margin-left:0px;
+    }
+    #butn-X{
+        margin-left: 180px;
     }
 }
