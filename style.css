@@ -7,12 +7,11 @@
 
 body {
     background-color: #E9ECEF;
-
 }
 
 /* _____________________________________________NAV_____________________________________________________ */
 
-.lista-ul {
+.nav-list {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -29,18 +28,18 @@ body {
 
 }
 
-.lista-ul a {
+.nav-list a {
     color: #ffffff;
     text-decoration: none;
     font-size: 1.5rem;
 }
 
-.lista-ul a:hover {
+.nav-list a:hover {
     color: #FFBA08
 }
 
 
-.lista {
+.nav-link {
     color: #ffffff;
     align-self: center;
     text-decoration: none;
@@ -48,9 +47,9 @@ body {
 }
 
 
-/* _____________________________________________________________________________________________________ */
+/* _____________________________________________HERO____________________________________________________ */
 
-.fotinha {
+.hero {
     background-image: url('/WhatsApp\ Image\ 2022-05-03\ at\ 18.54.18.jpeg');
     height: 100vh;
     background-size: cover;
@@ -61,7 +60,7 @@ body {
     justify-content: space-around;
 }
 
-.fotinha h1 {
+.hero h1 {
     margin: 0 auto;
     color: #000000;
     background-color: #E9ECEF;
@@ -81,140 +80,135 @@ body {
     filter: drop-shadow(20px 5px 1px #4daa57)
 }
 
-.fotinha h1:hover {
+.hero h1:hover {
     background-color: #FFBA08;
     box-shadow: 10px 10px 50px #FFBA08;
 
 }
 
-/* _____________________________________________________________________________________________________ */
+/* ________________________________________whoAmI_______________________________________________________ */
 
-#artur {
-    width: 70%;
-    margin: 0 auto;
+.whoAmI {
+    width: 50%;
     text-align: center;
     background-color: #F95738;
-    /* box-shadow: 5px 10px 20px #495057; */
-    /* border-radius: 5px; */
-    /* border: 1px solid #212529; */
     font-family: 'VT323', monospace;
     font-size: 30px;
-    height: 730px;
-    /* display: flex;
-    flex-flow: column;
-    justify-content: space-around; */
+    height: 800px;
+    border-right: solid 1px black;
 }
 
-#art {
+.whoAmI-top-container {
+    background-color: #ffffff;
+    height: 250px;
+    border: solid 1px black;
+}
+
+.whoAmI-picture {
     width: 80px;
     display: inline-block;
     margin-top: 50px;
 }
 
-#des {
+.whoAmI-title {
     font-size: 4rem;
     color: black;
 }
 
-.habs {
-    padding: 2em;
+.whoAmI-low-container {
     font-family: 'Libre Bodoni', serif;
     text-align: center;
 }
 
-.habs p {
-    color: rgb(0, 0, 0);
-    padding-top: 50px;
+.whoAmI-low-container p {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    width: 80%;
     height: 400px;
-    line-height: 70px;
+    line-height: 80px;
+    font-size: 26px;
 }
 
-.habs p a {
+.whoAmI-low-container p a {
     color: black;
     transform: none;
     text-decoration: none;
 }
 
-.habs p a:hover {
+.whoAmI-low-container p a:hover {
     color: #FFBA08;
 }
 
-.fotoArtur {
-    background-color: #ADB5BD;
+/* ______________________________________soft-skills______________________________________________________________ */
+
+.soft-skills {
+    width: 50%;
+    text-align: center;
+    background-color: #e63946;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    height: 800px;
+    border-left: solid 1px black;
+}
+
+.soft-skills-top-container {
     height: 250px;
+    background-color: #ffffff;
+    border: solid 1px black;
 }
 
-/* _____________________________________________________________________________________________________ */
-
-article {
-    font-family: 'Indie Flower', cursive;
-    background-color: #fff;
-    background-image:
-        linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-        linear-gradient(#eee .1em, transparent .1em);
-    background-size: 100% 2em;
-    padding: 1em;
-
+#soft-logo {
+    width: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    filter: brightness(0%);
 }
 
-article p {
-    margin-left: 50px;
-    font-size: 45px;
-}
-
-article h3 {
-    margin-left: 50px;
-    font-size: 60px;
-    text-transform: uppercase;
+.soft-skills-title {
+    font-size: 4rem;
+    color: black;
 }
 
 
-/* _____________________________________________________________________________________________________ */
-.fotos {
-    width: 70%;
-    height: 400px;
-    margin-top: 20px;
-    /* border-radius: 100%; */
-    border: #FFBA08 15px solid;
+.soft-skills-list {
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 26px;
 }
 
 
+/* ________________________________________carousel____________________________________________________________ */
 
-.port {
-    background-color: #ADB5BD;
-    height: 250px;
-}
-
-
-
-#carrosel {
+.carousel {
     text-align: center;
     background-color: #ADB5BD;
-    /* box-shadow: 5px 10px 20px #495057; */
-    /* border-radius: 5px; */
-    /* border: 1px solid #212529; */
     font-size: 30px;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     color: black;
-    height: 730px;
+    height: 100%;
+    border: solid 1px black;
+}
+
+.carousel-top-container {
+    background-color: #ffffff;
+    height: 250px;
 }
 
 #carouselExampleDark {
-    background-color: #4DAA57;
+    background-color: #000000;
     padding-bottom: 58px;
-    /* border-radius: 5px; */
+    padding-top: 30px;
+    height: 443px;
+    width: 100%;
 }
 
-#carrosel .container p {
-    font-size: 4rem;
-}
-
-
-#carrosel div p {
+.carousel-top-container p {
     font-family: 'VT323', monospace;
     height: 50px;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 50px;
 }
 
@@ -227,11 +221,11 @@ hr {
     margin-bottom: 10px;
 }
 
-#img-tech {
-    opacity: 100%;
-    height: 400px;
-
+.carousel-low-container {
+    display: flex;
+    flex-flow: row;
 }
+
 
 #logo-proj {
     width: 60px;
@@ -239,55 +233,43 @@ hr {
     margin-top: 50px;
 }
 
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-
-#softSkills {
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #e63946;
-    /* box-shadow: 5px 10px 20px #495057; */
-    /* border-radius: 5px; */
-    /* border: 1px solid #212529; */
-    font-family: 'VT323', monospace;
-    font-size: 30px;
-    height: 730px;
-}
-
-.form {
-    height: 250px;
-    background-color: #ADB5BD;
-}
-
-#soft-logo {
-    width: 80px;
-    margin: 0 auto;
-    margin-top: 50px;
-    filter: brightness(0%);
-}
-
-#hab {
-    font-family: 'VT323', monospace;
-    margin-top: 10px;
-    font-size: 4rem;
-    color: black;
-}
-
-
-.habs2 {
-    font-family: 'Libre Bodoni', serif;
-    color: rgb(0, 0, 0);
-    padding: 5px;
+.carousel-picture {
+    width: 80%;
+    height: 300px;
     margin-top: 20px;
 }
 
-/* _____________________________________________________________________________________________________ */
+.carousel-aside-left,
+.carousel-aside-right {
+    width: 40%;
+    background-color: #000000;
+}
+
+.carousel-aside-left p,
+.carousel-aside-right p {
+    font-size: 26px;
+    color:#4DAA57;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'VT323', monospace;
+}
+
+.carousel-aside-left h3,
+.carousel-aside-right h3 {
+    color: #4DAA57;
+    padding-top: 50px;
+    font-size: 34px;
+    font-family: 'VT323', monospace;
+}
+
+/* ___________________________________________FOOTER___________________________________________________________ */
 #footer {
     background-color: #212529;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 0;
+    padding: 10px;
+
 }
 
 footer p a {
@@ -301,7 +283,7 @@ footer p {
     padding-top: 20px;
 }
 
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++HiddenBar++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .hiddenBar {
     visibility: hidden;
@@ -324,12 +306,12 @@ footer p {
     padding: 20px;
 }
 
-.hiddenBar li a{
+.hiddenBar li a {
     text-decoration: none;
     color: white;
 }
 
-.hiddenBar li a:hover{
+.hiddenBar li a:hover {
     color: #FFBA08;
 }
 
@@ -348,7 +330,7 @@ footer p {
     padding-top: 100px;
 }
 
-#butn-X:hover{
+#butn-X:hover {
     color: #FFBA08;
 }
 
@@ -356,4 +338,36 @@ footer p {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+}
+
+/* ++++++++++++++++++++++++++++++++++++MOBILE++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+@media (max-width: 375px) {
+    main {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .whoAmI {
+        width: 100%;
+    }
+
+    .soft-skills {
+        width: 100%;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+
+    .hero {
+        max-height: 800px;
+    }
 }

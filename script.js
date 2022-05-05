@@ -1,5 +1,5 @@
 function navfixed(event) {
-    const nav = document.querySelector('.lista-ul')
+    const nav = document.querySelector('.nav-list')
 
 
     if (event.deltaY < 0) {
