@@ -1,4 +1,4 @@
-* {
+Skip to content Search or jump to… Pull requests Issues Marketplace Explore @vidorartur vidorartur / vidorartur.github.io Public Code Issues Pull requests Actions Projects Wiki Security Insights Settings vidorartur.github.io/contato/style.css @vidorartur vidorartur adicionando contato Latest commit 25add12 28 minutes ago History 1 contributor 279 lines (219 sloc) 4.09 KB * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -73,8 +73,8 @@ img {
 #forms {
     display: flex;
     justify-content: center;
-    flex-flow: column wrap;
-    height: 100vh;
+    /* flex-flow: column wrap; */
+    height: 800px;
     width: 80%;
     margin: 0 auto;
     background-color: #000000;
@@ -86,7 +86,7 @@ img {
     background-color: #0e0f10;
     color: #E9ECEF;
     padding: 50px 25px;
-    height: 100vh;
+    height: 800px;
     padding-top: 100px;
 
 }
@@ -226,31 +226,30 @@ footer p {
     }
 
     .nav-list {
-        justify-content: space-evenly;
+        display: flex;
+        justify-content: space-around;
+        align-content: flex-start;
+    }
+
+    #form-container{
+        height: 900px;
     }
 
     #forms {
         width: 100%;
-
-    }
-
-    #form-container {
-display: flex;
-flex-flow: column wrap;
-justify-content: space-around;
+        height: 900px;
 
     }
     .social-list {
         display: flex;
         text-align: center;
-        flex-flow: row wrap;
     }
-
+    
     .hiddenBar {
         width: 70%;
     }
-
-
+    
+    
     .hiddenBar li {
         font-size: 0.5rem;
         list-style: none;
@@ -261,19 +260,23 @@ justify-content: space-around;
         font-size: 2rem;
         list-style: none;
         padding: 20px;
-     
-    }
-    #butn-X{
-        margin-left: 180px;
-    }
-
-    .social-list{
-        margin-right: 25px;
-  
     
     }
+    
+    #butn-X {
+        margin-left: 180px;
+    }
+    
+    .social-list {
+        margin-right: 25px;
+    
+    
+    }
+    
     .social-links a {
         width: 100%;
-       
+    
     }
 }
+
+
