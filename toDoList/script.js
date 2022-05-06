@@ -8,31 +8,25 @@ function criarTarefa() {
   } else {
     createLi.appendChild(textValue);
     listaTarefas.appendChild(createLi).classList.add('tarefas', "list-group-item");
+    createLi.addEventListener('click', colorindoTarefa);
+    createLi.addEventListener('dblclick', checked);
   }
   text.value = '';
-  marcarTarefa();
 }
 
-function marcarTarefa() {
-  const li = document.querySelectorAll('.tarefas');
-
-  function colorindoTarefa(event) {
-    if (document.querySelector('.selected')) {
-      document.querySelector('.selected').classList.remove('selected');
-    }
-    event.target.classList.add('selected');
+function colorindoTarefa(event) {
+  if (document.querySelector('.selected')) {
+    document.querySelector('.selected').classList.remove('selected');
   }
-
-  function checked(event) {
-
-    event.target.classList.toggle('completed')
-  }
-
-  for (i = 0; i < li.length; i++) {
-    li[i].addEventListener('click', colorindoTarefa);
-    li[i].addEventListener('dblclick', checked);
-  }
+  event.target.classList.add('selected');
 }
+
+function checked(event) {
+
+  event.target.classList.toggle('completed')
+}
+
+
 
 function apagarTudo() {
   const lista = document.querySelector('ol');
@@ -110,9 +104,9 @@ function navfixed(event) {
 
 
   if (event.deltaY < 0) {
-      nav.style.visibility = "visible";
+    nav.style.visibility = "visible";
   } else if (event.deltaY > 0) {
-      nav.style.visibility = "hidden";
+    nav.style.visibility = "hidden";
   }
 }
 
