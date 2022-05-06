@@ -1,4 +1,4 @@
-Skip to content Search or jump to… Pull requests Issues Marketplace Explore @vidorartur vidorartur / vidorartur.github.io Public Code Issues Pull requests Actions Projects Wiki Security Insights Settings vidorartur.github.io/contato/style.css @vidorartur vidorartur adicionando contato Latest commit 25add12 28 minutes ago History 1 contributor 279 lines (219 sloc) 4.09 KB * {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -166,7 +166,7 @@ footer p {
     align-content: flex-start;
     position: fixed;
     height: 100vh;
-    width: 500px;
+    width: 70%;
     background-color: #0e0f10;
     color: white;
     z-index: 1000;
@@ -175,9 +175,8 @@ footer p {
 }
 
 .hiddenBar li {
-    font-size: 1.5rem;
-    list-style: none;
     padding: 20px;
+    font-size: 1rem;
 }
 
 .hiddenBar li a {
@@ -214,6 +213,9 @@ footer p {
     justify-content: flex-end;
 }
 
+
+
+
 @media screen and (max-width: 600px) {
     main {
         display: flex;
@@ -244,14 +246,13 @@ footer p {
         display: flex;
         text-align: center;
     }
-    
+ 
     .hiddenBar {
         width: 70%;
     }
-    
-    
+
     .hiddenBar li {
-        font-size: 0.5rem;
+        font-size: 1rem;
         list-style: none;
         padding-top: 5px;
     }
@@ -260,13 +261,12 @@ footer p {
         font-size: 2rem;
         list-style: none;
         padding: 20px;
-    
+
     }
-    
-    #butn-X {
+    #butn-X{
         margin-left: 180px;
     }
-    
+
     .social-list {
         margin-right: 25px;
     

@@ -11,8 +11,27 @@ body {
 }
 
 /* _____________________________________________NAV_____________________________________________________ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.lista-ul {
+
+body {
+    background-color: #E9ECEF;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+}
+
+/* _____________________________________________NAV_____________________________________________________ */
+
+.nav-list {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -29,23 +48,29 @@ body {
 
 }
 
-.lista-ul a {
+.nav-list a {
     color: #ffffff;
     text-decoration: none;
     font-size: 1.5rem;
 }
 
-.lista-ul a:hover {
+.nav-list a:hover {
     color: #FFBA08
 }
 
 
-.lista {
+.nav-link {
     color: #ffffff;
     align-self: center;
     text-decoration: none;
     list-style: none;
 }
+
+body {
+    background-color: #E9ECEF;
+}
+
+main {}
 
 
 /* _____________________________________________________________________________________________________ */
@@ -99,24 +124,6 @@ article h3 {
     background-size: 100% 2em;
     padding-bottom: 50px;
 }
-
-.social {
-    width: 50px;
-    margin-left: 40px;
-}
-
-.soci a {
-    color: black;
-    font-size: 25px;
-    margin-left: 50px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.soci a:hover{
-    color: #FFBA08;
-}
-
 /* _____________________________________________________________________________________________________ */
 #footer {
     background-color: #212529;
@@ -146,35 +153,105 @@ footer p {
     position: fixed;
     height: 100vh;
     width: 500px;
-    background-color: #212529;
+    background-color: #0e0f10;
     color: white;
     z-index: 1000;
+    border: #ADB5BD solid 10px;
 
 }
 
 .hiddenBar li {
-    font-size: 1rem;
+    font-size: 1.5rem;
     list-style: none;
     padding: 20px;
+}
+
+.hiddenBar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hiddenBar li a:hover {
+    color: #FFBA08;
 }
 
 .hiddenBar h5 {
     font-size: 2rem;
     list-style: none;
     padding: 20px;
+    margin-left: 25px;
 }
 
 #butn-X {
     font-size: 2rem;
     list-style: none;
     padding: 20px;
-    margin-left: 450px;
-    margin-top: 50px;
+    margin-left: 400px;
+    padding-top: 100px;
 }
 
+#butn-X:hover {
+    color: #FFBA08;
+}
 
 #hidden {
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 600px) {
+    main {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+
+    .nav-list a {
+        font-size: 1rem;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+        align-content: flex-start;
+    }
+
+    article {
+        width: 100%;
+        background-size: 100% 1em;
+    }
+
+    article p {
+        font-size: 20px;
+    }
+    
+    article h3 {
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .hiddenBar {
+        width: 70%;
+    }
+        
+    .hiddenBar li {
+        font-size: 1rem;
+        list-style: none;
+        padding-top: 5px;
+    }
+    
+    .hiddenBar h5 {
+        font-size: 2rem;
+        list-style: none;
+        padding: 20px;
+    
+    }
+    
+    #butn-X {
+        margin-left: 180px;
+    }
+    
+}
+
+
