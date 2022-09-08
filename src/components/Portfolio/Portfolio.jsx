@@ -27,7 +27,7 @@ function Portfolio() {
           </div>
           <h3>Star Wars Planets</h3>
           <div className='portfolio__items-cta'>
-            <a href='https://github.com/tryber/sd-022-a-project-starwars-planets-search/tree/artur-vidor-star-wars'
+            <a href='https://github.com/vidorartur/StarWarsPlanetsSearch'
             target='_blanck' className='btn-github'>GitHub</a>
             {/* <a href='https://github.com' className='btn-primary'>Live Demo</a> */}
           </div>
