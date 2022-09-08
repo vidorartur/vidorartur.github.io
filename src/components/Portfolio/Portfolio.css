@@ -1,0 +1,51 @@
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.portfolio__items {
+  background: black;
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: solid var(--color-primary-variant) 1px;
+  transition: var(--transition);
+}
+
+.portfolio__items:hover {
+  border-color: var(--color-primary-variant);
+  background: var(--color-bg-variant);
+}
+
+.portfolio__item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.portfolio__items h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.portfolio__items-cta {
+  display: flex;
+  gap: 5.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn-github {
+  width: 100%;
+  background: black;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition)
+}
+
+.btn-github:hover {
+  background: var(--color-primary);
+  color: var(--color-bg);
+  border-color: transparent;
+}
