@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b7aeea5.css",
-    "main.js": "/static/js/main.7939c1e4.js",
+    "main.css": "/static/css/main.297c2c18.css",
+    "main.js": "/static/js/main.a627cfa0.js",
     "static/media/SolarSystem.png": "/static/media/SolarSystem.9fdb080fcd4a41f06122.png",
     "static/media/me-about.png": "/static/media/me-about.275cd93ae5cd38067465.png",
     "static/media/ME.png": "/static/media/ME.b0c646c6e6bdb034bbe8.png",
     "static/media/StarWars.png": "/static/media/StarWars.ac36cc810e11be222e0e.png",
     "index.html": "/index.html",
-    "main.8b7aeea5.css.map": "/static/css/main.8b7aeea5.css.map",
-    "main.7939c1e4.js.map": "/static/js/main.7939c1e4.js.map"
+    "main.297c2c18.css.map": "/static/css/main.297c2c18.css.map",
+    "main.a627cfa0.js.map": "/static/js/main.a627cfa0.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b7aeea5.css",
-    "static/js/main.7939c1e4.js"
+    "static/css/main.297c2c18.css",
+    "static/js/main.a627cfa0.js"
   ]
 }
