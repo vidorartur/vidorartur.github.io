@@ -62,6 +62,10 @@ input, textarea {
 /* ======================= MEDIA QUERIES (SMALL DEVICES) ============================ */
 
 @media screen and (max-width: 600px) {
+  #contact {
+    margin-top: 20em;
+  }
+
   .container.contact__container {
     display: flex;
     flex-flow: column wrap;

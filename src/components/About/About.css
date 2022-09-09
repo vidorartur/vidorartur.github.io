@@ -90,6 +90,10 @@
 /* ======================= MEDIA QUERIES (SMALL DEVICES) ============================ */
 
 @media screen and (max-width: 600px) {
+  #about {
+    margin-top: 15em;
+  }
+
   .about__me {
     display: none;
   }
