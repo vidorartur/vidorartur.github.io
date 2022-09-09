@@ -49,3 +49,16 @@
   color: var(--color-bg);
   border-color: transparent;
 }
+
+/* ======================= MEDIA QUERIES (SMALL DEVICES) ============================ */
+
+@media screen and (max-width: 600px) {
+  #portfolio {
+    margin-top: 10rem;
+  }
+
+  .portfolio__container {
+    display: flex;
+    flex-flow: column wrap;
+  }  
+}

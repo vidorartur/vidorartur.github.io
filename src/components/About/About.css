@@ -1,5 +1,5 @@
 #about {
-  width: 1200px;
+  width: 80%;
   margin: 100px auto;
 }
 
@@ -8,6 +8,11 @@
   grid-template-columns: 35% 50%;
   gap: 15%;
 }
+
+.about__container p {
+  text-align: left;
+}
+
 
 .about__me {
   width: 100%;
@@ -86,18 +91,31 @@
 
 @media screen and (max-width: 600px) {
   .about__me {
-    width: 65%;
-    margin: 0 auto 3rem;
+    display: none;
   }
 
   .about__cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .about__card {
+    width: 100%;
+    margin: 0 auto;
   }
 
   .about__content {
     text-align: center;
   }
 
-  
+  .about__container {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .about__container p {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
 }

@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <footer>
+    <footer id='footer'>
       <a href="#about" className="footer__logo">Artur Vidor</a>
 
       <ul className="permalinks">

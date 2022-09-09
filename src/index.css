@@ -39,6 +39,12 @@ body {
 }
 
 /* ======================= GENERAL CLASS ============================ */
+
+.App{
+  display: flex;
+  flex-flow: column wrap;
+}
+
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -73,7 +79,7 @@ a {
 }
 
 a:hover {
-  color: #f6f930;
+  color: white;
 }
 
 .btn {

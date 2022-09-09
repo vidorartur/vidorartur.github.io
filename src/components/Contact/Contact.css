@@ -9,7 +9,6 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  /* width: 450px; */
 }
 
 #submit {
@@ -58,4 +57,15 @@ input, textarea {
 
 .container.contact__container h3:hover {
   color: #f6f930;
+}
+
+/* ======================= MEDIA QUERIES (SMALL DEVICES) ============================ */
+
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    gap: 5rem;
+    }
 }

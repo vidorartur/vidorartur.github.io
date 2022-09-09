@@ -1,13 +1,14 @@
 header {
   height: 100vh;
   padding-top: 7rem;
-  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .header__container {
   text-align: center;
   height: 100%;
-  position: relative;
+  width: 100%;
 }
 
 /* =============================CTA========================*/
@@ -27,7 +28,6 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 10rem;
   bottom: 3rem;
   font-size: 1.5rem;
 }
@@ -56,7 +56,7 @@ header {
 
 .scroll__down {
   position: absolute;
-  right: 10rem;
+  right: 6.5rem;
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
@@ -76,6 +76,8 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
+    width: 100%;
+    margin: 0 auto;
     }
 
   .header__socials, 
