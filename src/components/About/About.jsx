@@ -1,10 +1,10 @@
 import React from 'react'
-import {BsAwardFill} from 'react-icons/bs'
-import {RiCodeBoxFill, RiTrelloFill} from 'react-icons/ri'
+import { BsAwardFill } from 'react-icons/bs'
+import { RiCodeBoxFill, RiTrelloFill } from 'react-icons/ri'
 import './About.css'
 import ME from '../../assets/me-about.png'
 
-function About() {
+function About () {
   return (
     <section id="about">
       <h5>Venha Saber</h5>
@@ -41,7 +41,7 @@ function About() {
           Me chamo Artur Dal Berto Vidor. Sou Tecnólogo em Gestão de Turismo pela Faculdade Municipal de Palhoça. E estudante de Desenvolvimento Web na Trybe. Natural de Santa Maria - RS, morando atualmente em Palhoça - SC.
         </p>
         <br/>
-        <a href='#contact'  className='btn-primary'>Vamos Conversar</a>
+        <a href='#contact' className='btn-primary'>Vamos Conversar</a>
 
         </div>
       </div>

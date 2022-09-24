@@ -3,7 +3,7 @@ import SolarSystem from '../../assets/SolarSystem.png'
 import StarWars from '../../assets/StarWars.png'
 import './Portfolio.css'
 
-function Portfolio() {
+function Portfolio () {
   return (
     <section id='portfolio'>
       <h5>Meus Trabalhos Recentes</h5>
@@ -15,7 +15,7 @@ function Portfolio() {
           </div>
           <h3>Solar System</h3>
           <div className='portfolio__items-cta'>
-            <a href='https://github.com/tryber/sd-022-a-project-solar-system/tree/dev-artur-vidor' 
+            <a href='https://github.com/tryber/sd-022-a-project-solar-system/tree/dev-artur-vidor'
             className='btn-github'
             target='_blanck'>GitHub</a>
             {/* <a href='https://github.com' className='btn-primary'>Live Demo</a> */}

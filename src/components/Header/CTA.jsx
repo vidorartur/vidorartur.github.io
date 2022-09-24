@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CTA() {
+function CTA () {
   return (
     <div className='cta'>
       {/* <a href="#a" download className='btn'>Baixar Curriculo</a> */}

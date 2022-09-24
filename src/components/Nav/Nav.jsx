@@ -1,9 +1,9 @@
 import React from 'react'
-import {TiHome, TiUser} from 'react-icons/ti'
-import {RiBookFill, RiMessage2Fill} from 'react-icons/ri'
+import { TiHome, TiUser } from 'react-icons/ti'
+import { RiBookFill, RiMessage2Fill } from 'react-icons/ri'
 import './Nav.css'
 
-function Nav() {
+function Nav () {
   return (
     <nav>
       <a href="#header" ><TiHome /></a>

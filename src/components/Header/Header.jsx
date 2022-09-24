@@ -3,7 +3,7 @@ import CTA from './CTA'
 import ME from '../../assets/ME.png'
 import './Header.css'
 import HeaderSocials from './HeaderSocials'
-function Header() {
+function Header () {
   return (
     <header id='header'>
       <div className='continer header__container'>
@@ -13,7 +13,7 @@ function Header() {
         <CTA />
         <HeaderSocials />
         <div className="me">
-          <img src={ME} alt="" />
+          <img src={ME} alt='' />
         </div>
         <a href="#contact" className='scroll__down'>Scroll Down</a>
 

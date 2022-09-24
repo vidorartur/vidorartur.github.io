@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 
-function Footer() {
+function Footer () {
   return (
     <footer id='footer'>
       <a href="#about" className="footer__logo">Artur Vidor</a>
