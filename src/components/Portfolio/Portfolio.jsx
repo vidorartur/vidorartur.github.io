@@ -1,6 +1,6 @@
 import React from 'react'
-import SolarSystem from '../../assets/SolarSystem.png'
-import StarWars from '../../assets/StarWars.png'
+import RickAndMorty from '../../assets/RickAndMorty.png'
+import Athena from '../../assets/Athena.png'
 import './Portfolio.css'
 
 function Portfolio () {
@@ -11,67 +11,33 @@ function Portfolio () {
       <div className='container portfolio__container'>
         <article className='portfolio__items'>
           <div className='portfolio__item-image'>
-            <img src={SolarSystem} alt="" />
+            <img src={RickAndMorty} alt="" />
           </div>
-          <h3>Solar System</h3>
+          <h3>Rick and Morty API</h3>
+          <p>Este projeto foi realizado com o intuito de treinar React.js 18, React Hooks, Context API, Fetch API (com foco na paginação dos itens), HTML 5 e CSS 3.</p>
+          <br />
           <div className='portfolio__items-cta'>
-            <a href='https://github.com/tryber/sd-022-a-project-solar-system/tree/dev-artur-vidor'
+            <a href='https://github.com/vidorartur/RickAndMortyAPI/'
             className='btn-github'
             target='_blanck'>GitHub</a>
-            {/* <a href='https://github.com' className='btn-primary'>Live Demo</a> */}
+            <a href='https://rick-and-morty-api-sandy.vercel.app/' className='btn-github'
+            target='_blanck'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__items'>
           <div className='portfolio__item-image'>
-            <img src={StarWars} alt="" />
+            <img src={Athena} alt="" />
           </div>
-          <h3>Star Wars Planets</h3>
+          <h3>Athena Sports E-Commerce</h3>
+          <p>Este projeto foi realizado com o intuito de treinar React.js 18, BrowserRouter 5, React Hooks, Context API, Fetch API, HTML 5 e CSS 3.</p>
+          <br />
           <div className='portfolio__items-cta'>
-            <a href='https://github.com/vidorartur/StarWarsPlanetsSearch'
+            <a href='https://github.com/vidorartur/athena-sports-e-commerce'
             target='_blanck' className='btn-github'>GitHub</a>
-            {/* <a href='https://github.com' className='btn-primary'>Live Demo</a> */}
+            <a href='https://athena-sports-e-commerce.vercel.app/' className='btn-github'
+            target='_blanck'>Live Demo</a>
           </div>
         </article>
-        {/* <article className='portfolio__items'>
-          <div className='portfolio__item-image'>
-            <img src={SolarSystem} alt="" />
-          </div>
-          <h3>Star Wars Planets</h3>
-          <div className='portfolio__items-cta'>
-            <a href='https://github.com' className='btn'>GitHub</a>
-            <a href='https://github.com' className='btn-primary'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__items'>
-          <div className='portfolio__item-image'>
-            <img src={SolarSystem} alt="" />
-          </div>
-          <h3>Star Wars Planets</h3>
-          <div className='portfolio__items-cta'>
-            <a href='https://github.com' className='btn'>GitHub</a>
-            <a href='https://github.com' className='btn-primary'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__items'>
-          <div className='portfolio__item-image'>
-            <img src={SolarSystem} alt="" />
-          </div>
-          <h3>Star Wars Planets</h3>
-          <div className='portfolio__items-cta'>
-            <a href='https://github.com' className='btn'>GitHub</a>
-            <a href='https://github.com' className='btn-primary'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__items'>
-          <div className='portfolio__item-image'>
-            <img src={SolarSystem} alt="" />
-          </div>
-          <h3>Star Wars Planets</h3>
-          <div className='portfolio__items-cta'>
-            <a href='https://github.com' className='btn'>GitHub</a>
-            <a href='https://github.com' className='btn-primary'>Live Demo</a>
-          </div>
-        </article> */}
       </div>
     </section>
   )

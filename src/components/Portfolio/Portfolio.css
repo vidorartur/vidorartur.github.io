@@ -1,6 +1,5 @@
 .portfolio__container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: 1.5rem;
 }
 
@@ -10,6 +9,10 @@
   border-radius: 2rem;
   border: solid var(--color-primary-variant) 1px;
   transition: var(--transition);
+}
+
+.portfolio__items p {
+  font-size: 1.2rem;
 }
 
 .portfolio__items:hover {
@@ -28,7 +31,7 @@
 
 .portfolio__items-cta {
   display: flex;
-  gap: 5.5rem;
+  gap: 2rem;
   margin-bottom: 1rem;
 }
 
