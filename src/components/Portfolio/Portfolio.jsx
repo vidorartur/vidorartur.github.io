@@ -31,6 +31,7 @@ function Portfolio () {
           <h3>Athena Sports E-Commerce</h3>
           <p>Este projeto foi realizado com o intuito de treinar React.js 18, BrowserRouter 5, React Hooks, Context API, Fetch API, HTML 5 e CSS 3.</p>
           <br />
+          <br />
           <div className='portfolio__items-cta'>
             <a href='https://github.com/vidorartur/athena-sports-e-commerce'
             target='_blanck' className='btn-github'>GitHub</a>
