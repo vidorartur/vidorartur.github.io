@@ -5,6 +5,9 @@
 
 .portfolio__items {
   background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   padding: 1.3rem;
   border-radius: 2rem;
   border: solid var(--color-primary-variant) 1px;
